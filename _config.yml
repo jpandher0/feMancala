@@ -1,0 +1,26 @@
+# Site settings
+title: Your Site Title
+description: A brief description of your site
+url: "https://jpandher0.github.io/feMancala" # The base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change this to the name of the theme you want to use
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Development settings
+livereload: true
